@@ -77,17 +77,17 @@ jobs:
       rules: []
     name: "activeScan"
     type: "activeScan"
+  #- parameters:
+  #    template: "risk-confidence-html"
+  #    reportDir: ""
+  #    reportTitle: "ZAP Scanning Report"
+  #    reportDescription: ""
+  #  name: "report"
+  #  type: "report"
   - parameters:
-      template: "risk-confidence-html"
+      template: "traditional-pdf"
       reportDir: ""
       reportTitle: "ZAP Scanning Report"
       reportDescription: ""
-    name: "report"
+    name: "report-pdf"
     type: "report"
-  - parameters:   
-      template: "traditional-pdf"      
-      reportDir: ""      
-      reportTitle: "ZAP Scanning Report"      
-      reportDescription: ""    
-      name: "report-pdf"    
-      type: "report"
