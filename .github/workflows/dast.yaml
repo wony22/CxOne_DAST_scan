@@ -40,8 +40,8 @@ jobs:
         fail_on: "HIGH"
         verbose: true
         output: ./output
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v3   
       name: Upload Logs
-      with: 
+      with:
         name: report
         path: ./output
