@@ -84,3 +84,10 @@ jobs:
       reportDescription: ""
     name: "report"
     type: "report"
+  - parameters:      
+      template: "traditional-pdf"      
+      reportDir: ""      
+      reportTitle: "ZAP Scanning Report"      
+      reportDescription: ""    
+      name: "report-pdf"    
+      type: "report"
