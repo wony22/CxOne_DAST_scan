@@ -84,7 +84,7 @@ jobs:
       reportDescription: ""
     name: "report"
     type: "report"
-  - parameters:      
+  - parameters:   
       template: "traditional-pdf"      
       reportDir: ""      
       reportTitle: "ZAP Scanning Report"      
