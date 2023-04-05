@@ -33,7 +33,7 @@ jobs:
       env:
         CX_APIKEY: ${{ secrets.CX_APIKEY }}
       with:
-        command: "api"
+        command: "web"
         config: './gin_juice.yaml'
         # openapi: file here
         base_url: "https://deu.ast.checkmarx.net"
