@@ -34,7 +34,8 @@ jobs:
         CX_APIKEY: ${{ secrets.CX_APIKEY }}
       with:
         command: "api"
-        openapi: './gin_juice.yaml'
+        config: './gin_juice.yaml'
+        # openapi: file here
         base_url: "https://deu.ast.checkmarx.net"
         environment_id: "2f776f4a-dfda-46d1-9fda-b879307d9b76"
         fail_on: "HIGH"
