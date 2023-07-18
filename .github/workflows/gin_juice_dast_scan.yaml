@@ -19,7 +19,7 @@ jobs:
   build:
     permissions:
       contents: read # for actions/checkout to fetch cod
-      security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
+      security-events: write # for github/codeql-action/upload-sarif to upload SARIF result
       actions: read # only required for a private repository by github/codeql-action/upload-sarif
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
