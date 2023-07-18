@@ -36,7 +36,7 @@ jobs:
         command: "web"
         config: './gin_juice.yaml'
         # openapi: file here
-        base_url: "https://deu.ast.checkmarx.net"
+        base_url: "https://sng.ast.checkmarx.net/"
         environment_id: "d336ac41-081b-4670-8b2b-3ef97593d36b"
         fail_on: "engine"
         verbose: true
